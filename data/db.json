@@ -1,0 +1,134 @@
+{
+  "sales": {
+    "totalRevenue": 125000,
+    "totalOrders": 3200,
+    "averageOrderValue": 39.06,
+    "salesByDay": [
+      { "date": "2024-01-01", "revenue": 4000, "orders": 100 },
+      { "date": "2024-01-02", "revenue": 4500, "orders": 110 },
+      { "date": "2024-01-03", "revenue": 4200, "orders": 105 },
+      { "date": "2024-01-04", "revenue": 5000, "orders": 120 }
+    ]
+  },
+  "products": [
+    { "id": 1, "name": "Organic Apple Juice", "category": "Beverages", "sales": 800 },
+    { "id": 2, "name": "Whole Wheat Bread", "category": "Bakery", "sales": 720 },
+    { "id": 3, "name": "Almond Milk", "category": "Dairy Alternatives", "sales": 650 },
+    { "id": 4, "name": "Dark Chocolate Bar", "category": "Snacks", "sales": 540 },
+    { "id": 5, "name": "Cold Brew Coffee", "category": "Beverages", "sales": 490 }
+  ],
+  "customers": [
+    { "state": "California", "customers": 1200 },
+    { "state": "Texas", "customers": 900 },
+    { "state": "Florida", "customers": 700 },
+    { "state": "New York", "customers": 650 },
+    { "state": "Illinois", "customers": 500 }
+  ],
+  "orders": [
+    {
+      "orderId": "ORD10001",
+      "customer": "Alice Johnson",
+      "amount": 120.99,
+      "status": "Completed",
+      "date": "2024-01-01"
+    },
+    {
+      "orderId": "ORD10002",
+      "customer": "Bob Smith",
+      "amount": 89.5,
+      "status": "Pending",
+      "date": "2024-01-02"
+    },
+    {
+      "orderId": "ORD10003",
+      "customer": "Charlie Brown",
+      "amount": 45.0,
+      "status": "Shipped",
+      "date": "2024-01-03"
+    },
+    {
+      "orderId": "ORD10004",
+      "customer": "Diana Prince",
+      "amount": 145.75,
+      "status": "Completed",
+      "date": "2024-01-04"
+    },
+    {
+      "orderId": "ORD10005",
+      "customer": "Eve Summers",
+      "amount": 77.25,
+      "status": "Pending",
+      "date": "2024-01-05"
+    },
+    {
+      "orderId": "ORD10006",
+      "customer": "Frank Castle",
+      "amount": 57.5,
+      "status": "Shipped",
+      "date": "2024-01-06"
+    },
+    {
+      "orderId": "ORD10007",
+      "customer": "Grace Hopper",
+      "amount": 98.9,
+      "status": "Completed",
+      "date": "2024-01-07"
+    },
+    {
+      "orderId": "ORD10008",
+      "customer": "Henry Ford",
+      "amount": 65.99,
+      "status": "Completed",
+      "date": "2024-01-08"
+    },
+    {
+      "orderId": "ORD10009",
+      "customer": "Ivy Thomas",
+      "amount": 140.0,
+      "status": "Cancelled",
+      "date": "2024-01-09"
+    },
+    {
+      "orderId": "ORD10010",
+      "customer": "Jack Reacher",
+      "amount": 34.75,
+      "status": "Pending",
+      "date": "2024-01-10"
+    },
+    {
+      "orderId": "ORD10011",
+      "customer": "Karen Page",
+      "amount": 89.99,
+      "status": "Shipped",
+      "date": "2024-01-11"
+    },
+    {
+      "orderId": "ORD10012",
+      "customer": "Luke Cage",
+      "amount": 110.0,
+      "status": "Completed",
+      "date": "2024-01-12"
+    },
+    {
+      "orderId": "ORD10013",
+      "customer": "Mary Jane",
+      "amount": 49.99,
+      "status": "Pending",
+      "date": "2024-01-13"
+    },
+    {
+      "orderId": "ORD10014",
+      "customer": "Natalie Cook",
+      "amount": 39.25,
+      "status": "Cancelled",
+      "date": "2024-01-14"
+    },
+    {
+      "orderId": "ORD10015",
+      "customer": "Oscar Wilde",
+      "amount": 155.33,
+      "status": "Completed",
+      "date": "2024-01-15"
+    }
+  ]
+}
