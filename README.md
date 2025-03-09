@@ -66,7 +66,7 @@ npm install
 Start the mock backend API using JSON server:
 
 ```bash
-json-server --watch data/db.json --port 3001
+npx json-server --watch data/db.json --port 3001
 ```
 
 ### Running the Development Server
