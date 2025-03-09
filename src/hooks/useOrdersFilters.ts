@@ -13,8 +13,8 @@ export function useOrdersFilters(orders: Order[]) {
 
         const filtered = !term
             ? orders
-            : orders.filter((o) =>
-                [o.orderId, o.customer, o.status].some((field) =>
+            : orders.filter((order) =>
+                [order.orderId, order.customer, order.status].some((field) =>
                     field.toLowerCase().includes(term)
                 )
             );

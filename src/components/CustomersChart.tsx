@@ -9,8 +9,8 @@ const Pie = React.lazy(() => import('react-chartjs-2').then(module => ({ default
 ChartJS.register(ArcElement, Legend);
 
 function CustomersChart({ customers }: CustomersChartProps) {
-    const labels = customers.map((c) => c.state);
-    const dataCounts = customers.map((c) => c.customers);
+    const labels = customers.map((customer) => customer.state);
+    const dataCounts = customers.map((customer) => customer.customers);
 
     const data = {
         labels,

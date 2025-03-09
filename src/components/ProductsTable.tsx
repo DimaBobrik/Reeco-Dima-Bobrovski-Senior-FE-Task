@@ -19,8 +19,8 @@ function ProductsTable({products}: ProductsTableProps) {
     } = useProductsFilters();
 
     const filteredProducts = category
-        ? products.filter((p) =>
-            p.category.toLowerCase().includes(category.toLowerCase())
+        ? products.filter((product) =>
+            product.category.toLowerCase().includes(category.toLowerCase())
         )
         : products;
 
